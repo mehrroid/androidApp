@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b435d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBg">#1a425b</color>
+    <color name="colorTriangle">#061d2c</color>
+    <color name="colorIcons">#f6bb07</color>
+    <color name="colorGameName">#f65007</color>
+    <color name="colorBackWi">#78bbe6</color>
+    <color name="colorFrontWi">#143850</color>
+    <color name="colorMenu">#9eadb2</color>
+
+
+
+
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">gameApp</string>
+    <string name="icon_heart">&#xf1ee;</string>
+    <string name="icon_triangle">    &#xf071;</string>
+    <string name="icon_play">&#xf04b;</string>
+    <string name="icon_wifi">&#xf1eb;</string>
+    <string name="icon_user">&#xf2be;</string>
+    <string name="icon_feed"> &#xf09e;</string>
+    <string name="icon_setting">&#xf013;</string>
+    <string name="icon_playGame">&#xf01d;</string>
+    <string name="icon_menu">&#xf0c9;</string>
+    <string name="icon_rsss">&#xf09e;</string>
+    <string name="icon_star">&#xf005;</string>
+    <string name="icon_userplus">&#xf234;</string>
+    <string name="icon_plus">&#xf067;</string>
+    <string name="icon_square">&#xf04d;</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>
