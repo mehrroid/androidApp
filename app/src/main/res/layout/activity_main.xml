@@ -14,7 +14,7 @@
         >
         <TextView
             android:layout_width="@dimen/_250sdp"
-            android:layout_height="@dimen/_33sdp"
+            android:layout_height="@dimen/_43sdp"
             android:layout_gravity="top"
             android:textSize="@dimen/_100sdp"
             android:textStyle="bold"
@@ -25,14 +25,26 @@
 
             android:text="@string/icon_square"
             android:id="@+id/txtsquare"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:textSize="@dimen/_41sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:textColor="@color/colorGameName"
+            android:gravity="left"
+            android:text="@string/icon_star"
+            android:id="@+id/txtstarbg"/>
 
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="top"
-            android:textSize="@dimen/_30sdp"
+            android:textSize="@dimen/_40sdp"
             android:textStyle="bold"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
             android:layout_marginTop="@dimen/_8sdp"
             android:textColor="@color/colorIcons"
             android:gravity="left"
@@ -42,7 +54,19 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="top"
-            android:textSize="@dimen/_30sdp"
+            android:textSize="@dimen/_42sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginLeft="@dimen/_89sdp"
+            android:textColor="@color/colorGameName"
+            android:gravity="left"
+            android:text="@string/icon_plus"
+            android:id="@+id/txtplusbg"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:textSize="@dimen/_40sdp"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_8sdp"
             android:layout_marginLeft="@dimen/_90sdp"
@@ -51,12 +75,27 @@
             android:text="@string/icon_plus"
             android:id="@+id/txtplus"/>
         <TextView
-            android:layout_width="@dimen/_450sdp"
-            android:layout_height="@dimen/_33sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_43sdp"
+            android:layout_gravity="top"
+            android:textSize="@dimen/_101sdp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="@dimen/_41sdp"
+            android:textColor="@color/colorGameName"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/_53sdp"
+
+            android:text="@string/icon_square"
+            android:id="@+id/txtsquare2bg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_43sdp"
             android:layout_gravity="top"
             android:textSize="@dimen/_100sdp"
             android:textStyle="bold"
-            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_40sdp"
             android:textColor="@color/colorTriangle"
             android:gravity="left"
             android:layout_marginLeft="@dimen/_53sdp"
@@ -64,21 +103,74 @@
             android:text="@string/icon_square"
             android:id="@+id/txtsquare2"/>
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_43sdp"
+            android:layout_gravity="top"
+            android:textSize="@dimen/_101sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_41sdp"
+            android:textColor="@color/colorGameName"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/_103sdp"
+
+            android:text="@string/icon_square"
+            android:id="@+id/txtsquare3bg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_43sdp"
+            android:layout_gravity="top"
+            android:textSize="@dimen/_100sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:textColor="@color/colorTriangle"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/_103sdp"
+            android:text="@string/icon_square"
+            android:id="@+id/txtsquare3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textSize="@dimen/_12sdp"
+
+
+            android:layout_marginTop="@dimen/_60sdp"
+            android:textColor="@color/colorGameName"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/_83sdp"
+
+            android:text="username..."
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:text="@string/icon_userplus"
+            android:textColor="@color/colorGameName"
+            android:textSize="@dimen/_41sdp"
+            android:gravity="left"
+            android:id="@+id/txtUserPlusbg"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:textStyle="bold"
+            />
+        <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="top"
             android:text="@string/icon_userplus"
             android:textColor="@color/colorIcons"
-            android:textSize="@dimen/_30sdp"
+            android:textSize="@dimen/_40sdp"
             android:gravity="left"
             android:id="@+id/txtUserPlus"
             android:layout_marginLeft="@dimen/_30sdp"
-            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_45sdp"
             android:textStyle="bold"
             />
 
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="bottom"
 
@@ -90,23 +182,23 @@
             android:text="@string/icon_play"
             android:id="@+id/txt4"/>
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="fill_parent"
-            android:layout_gravity="clip_horizontal"
+            android:layout_gravity="center_horizontal"
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold"
             android:textColor="@color/colorGameName"
             android:gravity="center"
-            android:layout_marginBottom="@dimen/_150sdp"
+            android:layout_marginBottom="@dimen/_100sdp"
             android:text="Game Name"
             android:id="@+id/txtgame"/>
 
 
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="bottom"
-            android:textSize="@dimen/_220sdp"
+            android:textSize="@dimen/_240sdp"
             android:textColor="@color/colorTriangle"
             android:gravity="center"
             android:layout_marginTop="@dimen/_150sdp"
@@ -127,6 +219,7 @@
             android:layout_marginTop="@dimen/_200sdp"
             android:layout_marginBottom="@dimen/_150sdp"
             android:text="@string/icon_setting"
+
             android:id="@+id/txtIconSetting"/>
         <TextView
             android:layout_width="fill_parent"
@@ -145,17 +238,42 @@
 
 
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="fill_parent"
             android:text="@string/icon_play"
             android:id="@+id/txt"
 
             android:layout_gravity="bottom"
-            android:gravity="center"
+            android:gravity="bottom"
             android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/_80sdp"
+            android:layout_centerInParent="true"
             android:textColor="@color/colorTriangle"
             android:layout_marginTop="@dimen/_250sdp"
-            android:textSize="@dimen/_220sdp"/>
+            android:layout_marginBottom="@dimen/_minus60sdp"
+            android:textSize="@dimen/_240sdp"/>
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/_90sdp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:gravity="bottom"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="@dimen/_minus60sdp"-->
+        <!--android:background="@color/colorTriangle"/>-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_42sdp"
+            android:textStyle="bold"
+            android:textColor="@color/colorGameName"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_235sdp"
+            android:layout_marginBottom="@dimen/_120sdp"
+
+            android:text="@string/icon_playGame"
+            android:id="@+id/txtIconPlaybg"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -164,7 +282,7 @@
             android:textStyle="bold"
             android:textColor="@color/colorIcons"
             android:gravity="center"
-            android:layout_marginTop="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_235sdp"
             android:layout_marginBottom="@dimen/_120sdp"
 
             android:text="@string/icon_playGame"
@@ -173,28 +291,241 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="center"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_21sdp"
+            android:textColor="@color/colorGameName"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_270sdp"
+            android:layout_marginBottom="@dimen/_100sdp"
+            android:textStyle="bold"
+            android:text="@string/icon_menu"
+            android:id="@+id/txtIconMenubg"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_20sdp"
             android:textStyle="bold"
             android:textColor="@color/colorMenu"
             android:gravity="center"
-            android:layout_marginTop="@dimen/_230sdp"
+            android:layout_marginTop="@dimen/_270sdp"
             android:layout_marginBottom="@dimen/_100sdp"
 
             android:text="@string/icon_menu"
             android:id="@+id/txtIconMenu"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_50sdp"
+        <!--<Button-->
+            <!--android:layout_width="@dimen/_200sdp"-->
+            <!--android:layout_height="@dimen/_50sdp"-->
 
-            android:layout_marginRight="@dimen/_20sdp"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:background="#000"
-            android:layout_gravity="bottom"
-            android:id="@+id/txt5"
-            android:text="ADS Space"
-            android:textStyle="bold"
-            android:textColor="#fff"
-            android:layout_marginBottom="@dimen/_1sdp"
-            />
+            <!--android:layout_marginRight="@dimen/_60sdp"-->
+            <!--android:layout_marginLeft="@dimen/_60sdp"-->
+            <!--android:background="#000"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:id="@+id/txt5"-->
+            <!--android:text="ADS Space"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#fff"-->
+            <!--android:layout_marginBottom="@dimen/_minus1sdp"-->
+            <!--/>-->
     </FrameLayout>
 </FrameLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:background="@color/colorBg"-->
+
+    <!--&gt;-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_gravity="bottom"-->
+
+
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="@dimen/_250sdp"-->
+            <!--android:layout_height="@dimen/_33sdp"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_100sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="@dimen/_2sdp"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:gravity="left"-->
+            <!--android:layout_marginLeft="@dimen/_20sdp"-->
+
+            <!--android:text="@string/icon_square"-->
+            <!--android:id="@+id/txtsquare"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_30sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginLeft="@dimen/_10sdp"-->
+            <!--android:layout_marginTop="@dimen/_8sdp"-->
+            <!--android:textColor="@color/colorIcons"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/icon_star"-->
+            <!--android:id="@+id/txtstar"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_30sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="@dimen/_8sdp"-->
+            <!--android:layout_marginLeft="@dimen/_90sdp"-->
+            <!--android:textColor="@color/colorIcons"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/icon_plus"-->
+            <!--android:id="@+id/txtplus"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="@dimen/_450sdp"-->
+            <!--android:layout_height="@dimen/_33sdp"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_100sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="@dimen/_30sdp"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:gravity="left"-->
+            <!--android:layout_marginLeft="@dimen/_53sdp"-->
+
+            <!--android:text="@string/icon_square"-->
+            <!--android:id="@+id/txtsquare2"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:text="@string/icon_userplus"-->
+            <!--android:textColor="@color/colorIcons"-->
+            <!--android:textSize="@dimen/_30sdp"-->
+            <!--android:gravity="left"-->
+            <!--android:id="@+id/txtUserPlus"-->
+            <!--android:layout_marginLeft="@dimen/_30sdp"-->
+            <!--android:layout_marginTop="@dimen/_30sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="bottom"-->
+
+            <!--android:textSize="@dimen/_220sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:gravity="center"-->
+            <!--android:rotation="90"-->
+            <!--android:text="@string/icon_play"-->
+            <!--android:id="@+id/txt4"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="clip_horizontal"-->
+            <!--android:textSize="@dimen/_20sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorGameName"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginBottom="@dimen/_150sdp"-->
+            <!--android:text="Game Name"-->
+            <!--android:id="@+id/txtgame"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:textSize="@dimen/_220sdp"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_150sdp"-->
+            <!--android:rotation="90"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="@string/icon_play"-->
+            <!--android:id="@+id/txt2"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:textSize="@dimen/_40sdp"-->
+            <!--android:layout_marginRight="@dimen/_80sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorIcons"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_200sdp"-->
+            <!--android:layout_marginBottom="@dimen/_150sdp"-->
+            <!--android:text="@string/icon_setting"-->
+            <!--android:id="@+id/txtIconSetting"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:textSize="@dimen/_40sdp"-->
+            <!--android:layout_marginLeft="@dimen/_80sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorIcons"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_200sdp"-->
+            <!--android:layout_marginBottom="@dimen/_150sdp"-->
+            <!--android:text="@string/icon_user"-->
+            <!--android:id="@+id/txtIconUser"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:text="@string/icon_play"-->
+            <!--android:id="@+id/txt"-->
+
+            <!--android:layout_gravity="bottom"-->
+            <!--android:gravity="center"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:layout_marginTop="@dimen/_250sdp"-->
+            <!--android:textSize="@dimen/_220sdp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textSize="@dimen/_40sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorIcons"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_200sdp"-->
+            <!--android:layout_marginBottom="@dimen/_120sdp"-->
+
+            <!--android:text="@string/icon_playGame"-->
+            <!--android:id="@+id/txtIconPlay"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textSize="@dimen/_15sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorMenu"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_230sdp"-->
+            <!--android:layout_marginBottom="@dimen/_100sdp"-->
+
+            <!--android:text="@string/icon_menu"-->
+            <!--android:id="@+id/txtIconMenu"/>-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/_50sdp"-->
+
+            <!--android:layout_marginRight="@dimen/_20sdp"-->
+            <!--android:layout_marginLeft="@dimen/_20sdp"-->
+            <!--android:background="#000"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:id="@+id/txt5"-->
+            <!--android:text="ADS Space"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#fff"-->
+            <!--android:layout_marginBottom="@dimen/_1sdp"-->
+            <!--/>-->
+    <!--</FrameLayout>-->
+<!--</FrameLayout>-->
