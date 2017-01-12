@@ -21,9 +21,8 @@ import android.widget.TextView;
 
 public class NavigationDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    // Button btn;
+   // Button btn;
     DrawerLayout drawer;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +30,7 @@ public class NavigationDrawer extends AppCompatActivity
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //etSupportActionBar(toolbar);
 
-        // btn= (Button) findViewById(R.id.btn);
+       // btn= (Button) findViewById(R.id.btn);
 
 //    FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
@@ -42,48 +41,48 @@ public class NavigationDrawer extends AppCompatActivity
 //            }
 //        });
         //UI
-        Typeface font = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
-        TextView txt = (TextView) findViewById(R.id.txt);
+        Typeface font = Typeface.createFromAsset( getAssets(), "fontawesome-webfont.ttf" );
+        TextView txt = (TextView) findViewById( R.id.txt);
         txt.setTypeface(font);
-        TextView txt2 = (TextView) findViewById(R.id.txt2);
+        TextView txt2 = (TextView) findViewById( R.id.txt2 );
         txt2.setTypeface(font);
         //TextView txt3 = (TextView) findViewById( R.id.txt3 );
         //txt3.setTypeface(font);
-        TextView txt4 = (TextView) findViewById(R.id.txt4);
+        TextView txt4 = (TextView) findViewById( R.id.txt4 );
         txt4.setTypeface(font);
-        TextView txticonsetting = (TextView) findViewById(R.id.txtIconSetting);
+        TextView txticonsetting = (TextView) findViewById( R.id.txtIconSetting);
         txticonsetting.setTypeface(font);
-        TextView txticonuser = (TextView) findViewById(R.id.txtIconUser);
+        TextView txticonuser = (TextView) findViewById( R.id.txtIconUser);
         txticonuser.setTypeface(font);
-        TextView txticonplay = (TextView) findViewById(R.id.txtIconPlay);
+        TextView txticonplay = (TextView) findViewById( R.id.txtIconPlay);
         txticonplay.setTypeface(font);
-        TextView playgamebg = (TextView) findViewById(R.id.txtIconPlaybg);
-        playgamebg.setTypeface(font);
-        TextView txticonmenu = (TextView) findViewById(R.id.txtIconMenu);
+        TextView playgamebg= (TextView) findViewById( R.id.txtIconPlaybg);
+       playgamebg.setTypeface(font);
+        TextView txticonmenu= (TextView) findViewById( R.id.txtIconMenu);
         txticonmenu.setTypeface(font);
-        TextView txticonmenubg = (TextView) findViewById(R.id.txtIconMenubg);
+        TextView txticonmenubg= (TextView) findViewById( R.id.txtIconMenubg);
         txticonmenubg.setTypeface(font);
-        TextView txticonsquare = (TextView) findViewById(R.id.txtsquare);
+        TextView txticonsquare= (TextView) findViewById( R.id.txtsquare);
         txticonsquare.setTypeface(font);
-        TextView txticonplus = (TextView) findViewById(R.id.txtplus);
+        TextView txticonplus= (TextView) findViewById( R.id.txtplus);
         txticonplus.setTypeface(font);
-        TextView txtstar = (TextView) findViewById(R.id.txtstar);
+        TextView txtstar= (TextView) findViewById( R.id.txtstar);
         txtstar.setTypeface(font);
-        TextView txtstarbg = (TextView) findViewById(R.id.txtstarbg);
+        TextView txtstarbg= (TextView) findViewById( R.id.txtstarbg);
         txtstarbg.setTypeface(font);
-        TextView txtuserplus = (TextView) findViewById(R.id.txtUserPlus);
+        TextView txtuserplus= (TextView) findViewById( R.id.txtUserPlus);
         txtuserplus.setTypeface(font);
-        TextView txtplusbg = (TextView) findViewById(R.id.txtplusbg);
+        TextView txtplusbg= (TextView) findViewById( R.id.txtplusbg);
         txtplusbg.setTypeface(font);
-        TextView txtsq2 = (TextView) findViewById(R.id.txtsquare2);
+        TextView txtsq2= (TextView) findViewById( R.id.txtsquare2);
         txtsq2.setTypeface(font);
-        TextView txtsq3 = (TextView) findViewById(R.id.txtsquare3);
+        TextView txtsq3= (TextView) findViewById( R.id.txtsquare3);
         txtsq3.setTypeface(font);
-        TextView userplusbg = (TextView) findViewById(R.id.txtUserPlusbg);
+        TextView userplusbg= (TextView) findViewById( R.id.txtUserPlusbg);
         userplusbg.setTypeface(font);
-        TextView txtsq2bg = (TextView) findViewById(R.id.txtsquare2bg);
+        TextView txtsq2bg= (TextView) findViewById( R.id.txtsquare2bg);
         txtsq2bg.setTypeface(font);
-        TextView txtsq3bg = (TextView) findViewById(R.id.txtsquare3bg);
+        TextView txtsq3bg= (TextView) findViewById( R.id.txtsquare3bg);
         txtsq3bg.setTypeface(font);
         //TextView txtgame= (TextView) findViewById( R.id.txtgame);
 //        txtgame.setOnClickListener(new View.OnClickListener() {
@@ -104,18 +103,19 @@ public class NavigationDrawer extends AppCompatActivity
         txticonuser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 Intent intent=new Intent(NavigationDrawer.this, com.myapp.mehrnaz.gameapp.Menu.class);
-                 startActivity(intent);
+                Intent intent=new Intent(NavigationDrawer.this, com.myapp.mehrnaz.gameapp.Menu.class);
+                startActivity(intent);
             }
         });
 
 
-        RotateAnimation rotate = (RotateAnimation) AnimationUtils.loadAnimation(this, R.anim.rotateanimation);
+
+        RotateAnimation rotate= (RotateAnimation) AnimationUtils.loadAnimation(this,R.anim.rotateanimation);
         txt.setAnimation(rotate);
-        RotateAnimation rotate2 = (RotateAnimation) AnimationUtils.loadAnimation(this, R.anim.animate2);
+        RotateAnimation rotate2= (RotateAnimation) AnimationUtils.loadAnimation(this,R.anim.animate2);
         //
 
-        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+      drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         txticonmenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -125,9 +125,9 @@ public class NavigationDrawer extends AppCompatActivity
         });
 
         // ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-        // this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        // drawer.setDrawerListener(toggle);
-        // toggle.syncState();
+               // this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+       // drawer.setDrawerListener(toggle);
+       // toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -189,6 +189,7 @@ public class NavigationDrawer extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 
 
 }
